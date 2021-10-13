@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cairo;
+}
+
+h1, h2, h3, p{
+    text-transform: capitalize;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.shoping .main-address{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.shoping main,
+.shoping main .flex-direction{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoping main .flex-direction{
+    flex-direction: column;
+}
+
+.shoping main .flex-direction:not(:first-of-type){
+    margin-top: 100px;
+}
+
+.shoping main .products{
+    display: flex;
+    justify-content: space-between;
+}
+.shoping main .flex-direction{
+    width: 75%;
+    padding-right: 40px;
+}
+
+.shoping main .flex-direction .products:not(:first-of-type){
+    margin-top: 20px;
+}
+
+.shoping main .cart{
+    width: 25%;
+}
+
+.shoping main .products .photo{
+    width: 30%;
+    height: 205px;
+}
+.shoping main .products .photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shoping main .products .info{
+    width: 65%;
+}
+
+.shoping main .products .info .shop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.shoping main .products .info .shop .price{
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+    color: green;
+}
+
+.shoping main .products .info .shop button{
+    color: green;
+    border: none;
+    background-color: transparent;
+    outline: 1px solid green;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: .5s;
+}
+
+.shoping main .products .info .shop button:hover{
+    background-color: green;
+    color: #fff;
+    outline: 1px solid green;
+    border: none;
+}
+
+.shoping main .cart .product-added table{
+    width: 100%;
+    text-align: center;
+
+}
+
+.shoping main .cart .product-added table .remove a{
+    text-transform: capitalize;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.shoping main .cart .product-added table td{
+    border: 1px solid #000;
+}
