@@ -117,3 +117,14 @@ h1, h2, h3, p{
 .shoping main .cart .product-added table td{
     border: 1px solid #000;
 }
+
+.anchor{
+    color: red;
+    font-size: 16px;
+    background: none;
+    border: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+}
